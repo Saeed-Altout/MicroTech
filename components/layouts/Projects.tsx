@@ -83,7 +83,7 @@ const Projects = () => {
             aligns seamlessly to deliver a cohesive and impactful result.
           </p>
         </div>
-        <div className="flex flex-center gap-10 justify-center">
+        <div className="flex flex-center flex-wrap gap-10 justify-center">
           {[
             "all",
             "frontend",
