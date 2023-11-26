@@ -4,6 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import scrollDown from "@/public/scrollDown.svg";
 import About from "@/components/layouts/About";
+import Services from "@/components/layouts/Services";
+import Projects from "@/components/layouts/Projects";
 const Home: NextPage = () => {
   return (
     <main>
@@ -22,6 +24,8 @@ const Home: NextPage = () => {
         </Link>
       </div>
       <About />
+      <Services />
+      <Projects />
     </main>
   );
 };
