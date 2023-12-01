@@ -66,7 +66,7 @@ const formSchema = z.object({
     "Other Website (Specify if possible)",
     "Email Newsletter",
     "Print Advertisement (Specify publication if applicable)",
-    "Other (Please Specify)])",
+    "Other (Please Specify)",
   ]),
   faq: z.enum(["4", "5", "6"]),
   message: z.string().min(1).optional(),
@@ -95,8 +95,8 @@ const Contact = () => {
         <div className="flex justify-center items-center flex-col lg:max-w-3xl text-center">
           <TitleSection>Contact Us</TitleSection>
           <Descraption>
-            Let's turn your vision into reality. Get in touch with us today and
-            let the digital transformation begin!
+            Let&apos;s turn your vision into reality. Get in touch with us today
+            and let the digital transformation begin!
           </Descraption>
         </div>
 

@@ -31,7 +31,7 @@ const StartProject = () => {
         </div>
         <Separator />
         <Box>
-          <Descraption>Let's start your project now!</Descraption>
+          <Descraption>Let&apos;s start your project now!</Descraption>
           <Button>Start Project</Button>
         </Box>
       </div>
