@@ -1,10 +1,6 @@
 import mobile from "@/public/services/mobile.svg";
 import web from "@/public/services/web.svg";
 import uiux from "@/public/services/ui&ux.svg";
-
-import im1 from "@/public/projects/1.svg";
-import im2 from "@/public/projects/2.svg";
-import im3 from "@/public/projects/3.svg";
 import project01 from "@/public/projects/project (1).jpg";
 import project02 from "@/public/projects/project (2).jpg";
 import project03 from "@/public/projects/project (3).jpg";
@@ -25,11 +21,10 @@ import project17 from "@/public/projects/project (17).jpg";
 
 export const navLinks = [
   { lable: "home", href: "/" },
-  { lable: "about us", href: "about" },
-  { lable: "services", href: "services" },
-  { lable: "projects", href: "projects" },
-  { lable: "testimonials", href: "testimonials" },
-  { lable: "contact us", href: "contact" },
+  { lable: "about us", href: "/#about" },
+  { lable: "services", href: "/#services" },
+  { lable: "projects", href: "/#projects" },
+  { lable: "contact us", href: "/#contact" },
 ];
 
 export const features = [
