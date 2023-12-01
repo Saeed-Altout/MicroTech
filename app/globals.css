@@ -79,3 +79,9 @@
     @apply border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60;
   }
 }
+
+@layer utilities {
+  .container {
+    @apply mx-auto w-full;
+  }
+}
